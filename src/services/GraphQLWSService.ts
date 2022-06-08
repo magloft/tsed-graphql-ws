@@ -1,7 +1,6 @@
 import { ApolloService } from '@tsed/apollo'
 import { AfterListen, Logger } from '@tsed/common'
 import { Configuration, Inject, Injectable } from '@tsed/di'
-import { TypeGraphQLService } from '@tsed/typegraphql'
 import { CloseCode, makeServer } from 'graphql-ws'
 import { Server as HttpServer } from 'http'
 import { WebSocketServer } from 'ws'
@@ -12,7 +11,6 @@ export class GraphQLWSService implements AfterListen {
   @Inject() protected logger: Logger
   @Inject(HttpServer) protected httpServer!: HttpServer
   @Inject(ApolloService) protected apolloService!: ApolloService
-  @Inject(ApolloService) protected typeGraphQLService!: TypeGraphQLService
   @Configuration() protected configuration: Configuration
 
   get settings(): GraphQLWSSettings {
