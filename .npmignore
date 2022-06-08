@@ -1,0 +1,8 @@
+.eslintignore
+.eslintrc
+.vscode
+src
+tsconfig.base.json
+tsconfig.compile.cjs.json
+tsconfig.compile.esm.json
+tsconfig.json

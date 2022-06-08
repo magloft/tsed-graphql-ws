@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.compile.cjs.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "ES2020",
+    "rootDir": "src",
+    "outDir": "./build/esm",
+    "declaration": true,
+    "declarationDir": "./build/types"
+  },
+  "exclude": ["node_modules", "build"]
+}
