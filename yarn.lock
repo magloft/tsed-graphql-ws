@@ -426,14 +426,6 @@
     statuses ">=2.0.1"
     tslib "2.3.1"
 
-"@tsed/typegraphql@6.114.10":
-  version "6.114.10"
-  resolved "https://registry.yarnpkg.com/@tsed/typegraphql/-/typegraphql-6.114.10.tgz#2bc9d07f88fcf6ac3ae760b1d7d1990ad4b7db76"
-  integrity sha512-dL9e+0pqcFYT7tz6Vz9OYKj+Xu3m/sgSmxFyJUr8hFcAxEd5pmrn4g9tscjHMRMB8hHnGyj1JttiLlB6qXHT3g==
-  dependencies:
-    "@tsed/apollo" "6.114.10"
-    tslib "2.3.1"
-
 "@types/accepts@^1.3.5":
   version "1.3.5"
   resolved "https://registry.yarnpkg.com/@types/accepts/-/accepts-1.3.5.tgz#c34bec115cfc746e04fe5a059df4ce7e7b391575"
